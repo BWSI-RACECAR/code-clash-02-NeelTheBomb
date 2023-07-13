@@ -2,15 +2,16 @@ class Solution:
     def digitdecrypt(self, num):
             #type num: int
             #return type: int
-            
-            strin = str(num)
+        strin = str(num)
+        num1 = 0
+        while (len(strin)) > 1:
             num1 = 0
-            while len(strin) > 1:
-                num1 = 0
-                for i in strin:
-                    num1 = num1 + int(strin)
-                strin = str(num1)
-            return strin[0]
+            for i in strin:
+                #print(int(i))
+                num1 = num1 + int(i)
+            strin = str(num1)
+
+        return strin[0]
             
             #TODO: Write code below to returnn an int with the solution to the prompt.
             pass
