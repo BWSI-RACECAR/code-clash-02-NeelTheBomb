@@ -14,7 +14,7 @@ class Solution:
         return strin[0]
             
             #TODO: Write code below to returnn an int with the solution to the prompt.
-            pass
+        pass
  
 def main():
     input1= input()
