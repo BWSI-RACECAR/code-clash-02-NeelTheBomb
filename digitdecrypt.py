@@ -3,9 +3,10 @@ class Solution:
             #type num: int
             #return type: int
             strin = str(num)
+            num1 = 0
             for i in range(len(strin)-1):
-                 num = num + int(strin[i-1])
-            return num
+                 num1 = num1 + int(strin[i])
+            return num1
             
             #TODO: Write code below to returnn an int with the solution to the prompt.
             pass
