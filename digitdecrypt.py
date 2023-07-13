@@ -7,8 +7,8 @@ class Solution:
             num1 = 0
             while len(strin) > 1:
                 num1 = 0
-                    for i in range(len(strin)-1):
-                         num1 = num1 + int(strin[i])
+                    for i in strin:
+                         num1 = num1 + int(strin)
                     strin = str(num1)
             return num1
             
