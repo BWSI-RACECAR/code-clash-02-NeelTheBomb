@@ -4,7 +4,7 @@ class Solution:
             #return type: int
             strin = str(num)
             for i in range(len(strin)):
-                 num = num + int(string[i])
+                 num = num + int(strin[i])
             return num
             
             #TODO: Write code below to returnn an int with the solution to the prompt.
