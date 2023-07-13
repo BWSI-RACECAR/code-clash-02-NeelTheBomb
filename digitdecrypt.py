@@ -3,8 +3,8 @@ class Solution:
             #type num: int
             #return type: int
             strin = str(num)
-            for i in range(len(strin)):
-                 num = num + int(strin[i-1])
+            for i in range(len(strin-1)):
+                 num = num + int(strin[i])
             return num
             
             #TODO: Write code below to returnn an int with the solution to the prompt.
