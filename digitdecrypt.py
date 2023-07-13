@@ -10,7 +10,7 @@ class Solution:
                 for i in strin:
                     num1 = num1 + int(strin)
                 strin = str(num1)
-            return num1
+            return strin[0]
             
             #TODO: Write code below to returnn an int with the solution to the prompt.
             pass
