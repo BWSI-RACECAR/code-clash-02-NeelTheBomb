@@ -3,7 +3,7 @@ class Solution:
             #type num: int
             #return type: int
             strin = str(num)
-            for i in range(len(strin-1)):
+            for i in range(len(strin)-1):
                  num = num + int(strin[i])
             return num
             
